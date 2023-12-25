@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+.Rancho-Font{
+    font-family: 'Rancho', cursive;
+}
+.Raleway-Font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navImg{
+    background: url('/src/assets/images/more/15.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerImg{
+    background: url('/src/assets/images/more/3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FooterImg{
+    background: url('/src/assets/images/more/10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CoffeeBackgroundImg{
+    background: url('/src/assets/images/more/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
